@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Redes Sociais</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            background-image: url(imagens/fundo-madeira.jpg);
+            height: 100vh;
+            background-position: center center;
+            position: relative;
+            background-size: cover;
+            margin: 0px;
+        }
+
+       #meio {
+            border-radius: 35px 35px 35px 35px; 
+            display: inline-block;
+            position: absolute;
+            height: 820px;
+            width: 432px;
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%,-50%);   
+       }
+
+       iframe { 
+            display: inline-block;
+            position: absolute;
+            height: 608px;
+            width: 365px;
+
+            left: 50%;
+            top: 604px;
+
+            transform: translate(-50%,-50%);   
+       }
+       
+        .oi {
+            max-width: 70px;
+            display: block;
+            border-radius: 50px;
+            padding: 10px;
+            position: relative;
+            left: 95%;
+           
+            transform: translate(-2%,-5%);
+       }
+        
+    </style>
+</head>
+<body>
+    <div>
+       <a href="home.html" target="frame"><img class="oi" src="imagens/logo-home.jpg" alt="logo-home"></a>
+       <a href="youtube.html"  target="frame"><img class="oi" src="imagens/logo-youtube.jpg" alt="logo-youtube"></a>
+        <a href="github.html"  target="frame"><img class="oi" src="imagens/logo-github.jpg" alt="logo-github"></a>
+        <a href="instagram.html"  target="frame"><img class="oi" src="imagens/logo-instagram.jpg" alt="logo-instagram"></a>
+        <a href="X.html"  target="frame"><img class="oi" src="imagens/logo-twitter.jpg" alt="x"></a>
+        <a href="facebook.html"  target="frame"><img class="oi" src="imagens/logo-facebook.jpg" alt="logo-facebook"></a>
+    </div>
+    <section>
+        <img id="meio" src="imagens/frame-iphone.png" alt="frame-iphone">
+        <iframe name="frame" src="imagens/tela-home.jpg"><p>Infelizmente seu navegador não e compatível com isso></p></iframe>
+    </section>
+</body>
+</html>
